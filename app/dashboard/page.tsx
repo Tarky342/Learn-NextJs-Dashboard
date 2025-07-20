@@ -10,7 +10,7 @@ export default async function Page() {
   const {
     totalPaidInvoices,
     totalPendingInvoices,
-    numberOfInvoices
+    numberOfInvoices,
     numberOfCustomers,
   } = await fetchCardData();
   return (
